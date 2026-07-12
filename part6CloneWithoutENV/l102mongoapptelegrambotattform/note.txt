@@ -1,0 +1,31 @@
+Deploy to server (render.com) 
+
+(i) Prepare your project 
+    
+    => Method 1 (manually) (alredy done in python fast api)
+        create requirements.txt 
+        activate > pip3 list > copy all dependicies and past to requirements.txt 
+
+
+    => Method 2 
+        we don't need to create requirements.txt 
+        activate
+        pip freeze > requirements.txt
+
+
+(ii) Upllad to github  
+
+(iii) Render (click new -> web services) (but for only script proejct we should use background worker) (but it ask your cards)
+
+    - Source Code = your repo 
+    - Name = pythonmongotgbot22 
+    - ProjectOptional = No projecct / No enviroment 
+    - Language = Python 3 
+    - Branch  = main 
+    - Region = Singapore(Southeast asia) 
+    - Build Command = pip install -r requirements.txt 
+    - start Command = python3 bot.py 
+
+    enviroment variable 
+    TELEGRAM_TOKEN="7591480047:AAH7q9-bz4fat7aEO-sDiNZDlijon3dpoYU"
+    mongodb+srv://<db_username>:<db_password>@cluster0.5yebdvl.mongodb.net/

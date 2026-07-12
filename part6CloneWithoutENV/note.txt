@@ -1,0 +1,59 @@
+=> mysql-connector-python 
+
+https://pypi.org/project/mysql-connector-python/
+pip install mysql-connector-python 
+
+------------------------------------------------------
+
+=>  create env
+
+python3 -m venv myenv
+
+------------------------------------------------------
+
+=> Python dotenv  (python-dotenv  1.1.1)
+
+(i) Install 
+    - pip install python-dotenv 
+
+
+=> Python Telegram bot
+
+    - search (python telegram bot)
+    - pip install python-telegram-bot 
+
+-------------------------------------------------------------------- 
+
+=> Get Telegram Token Key 
+
+    (i) Google or Telegram app , find @BotFather 
+
+        https://telegram.me/BotFather 
+
+    (ii) Create a new Bot 
+        - Click Start 
+        - send /newbot 
+            BotFather will ask for : 
+                name for you bot = 
+                Bot username = Must end with with bot 
+
+    (iii) Copy Your api token 
+        Done! Congratulations on your new bot. You will find it at t.me/pybot22bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+
+        Use this token to access the HTTP API:
+        7591480047:AAH7q9-bz4fat7aEO-sDiNZDlijon3dpoYU
+        Keep your token secure and store it safely, it can be used by anyone to control your bot.
+
+        For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+-------------------------------------------------------------------- 
+
+
+=> Python MongoDb 
+
+    (i)  Install  (v - 4.15.3)
+        - https://www.mongodb.com/docs > Resources > MongoDb Driver >   Python > Get Start with MongoDB Python > Get Started
+        - https://pypi.org/project/pymongo/
+        - pip install pymongo
+
+=> Doc  (https://www.mongodb.com/docs/languages/python/pymongo-driver/current/connect/)
